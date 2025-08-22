@@ -1,9 +1,9 @@
-📈 Stock Price Prediction using LSTM
+# 📈 Stock Price Prediction using LSTM
 
 This project demonstrates how to predict stock prices using Deep Learning (LSTM).
 It covers the end-to-end workflow — from data collection, preprocessing, model training, evaluation, and future forecasting.
 
-🚀 Features
+# 🚀 Features
 
 📊 Data collection using yfinance
 
@@ -15,7 +15,7 @@ It covers the end-to-end workflow — from data collection, preprocessing, model
 
 📉 Training, validation, and forecasting (30 days)
 
-🧑‍💻 Workflow
+# 🧑‍💻 Workflow
 
 Load historical stock price data with yfinance
 
@@ -27,7 +27,7 @@ Train an LSTM neural network with Keras
 
 Evaluate model performance on test data
 
-📊 Results
+# 📊 Results
 
 ✅ Model captures short-term stock price movements effectively.
 
@@ -35,7 +35,7 @@ Evaluate model performance on test data
 
 ✅ Forecasting demonstrates realistic upward/downward patterns.
 
-📌 Tech Stack
+# 📌 Tech Stack
 
 Python
 
@@ -45,29 +45,29 @@ yfinance, pandas, numpy, matplotlib (Data handling & visualization)
 
 joblib (Saving Scaler)
 
-⚙️ How to Run
+# ⚙️ How to Run
 
 Follow these steps to run the project locally:
 
-1. Clone the repository
+# 1. Clone the repository
 git clone https://github.com/your-username/Stock-Price-Prediction.git
 cd Stock-Price-Prediction
 
-2. Create a virtual environment (recommended)
+# 2. Create a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate    # For Linux/Mac
 venv\Scripts\activate       # For Windows
 
-3. Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-4. Run Jupyter Notebook
+# 4. Run Jupyter Notebook
 jupyter notebook
 
 
 Then open Stock_Price.ipynb and run the cells step by step.
 
-📌 Future Improvements
+# 📌 Future Improvements
 
 Try different architectures (GRU, Transformer models)
 
